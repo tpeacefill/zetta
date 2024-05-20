@@ -1,0 +1,19 @@
+.nav {
+    background-color: red;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-button {
+    width: 150px;
+    height: 43px;
+    border: none;
+    background-color: #01B5DD;
+    color: white;
+    border-radius: 20px;
+}
