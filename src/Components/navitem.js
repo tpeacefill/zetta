@@ -1,9 +1,12 @@
 import React from 'react';
-import './navitem.css'; // You can add styles specific to NavItem here if needed
+import './navitem.css';
 
-const NavItem = ({ text }) => {
+const NavItem = ({ text, isActive, onClick }) => {
   return (
-    <li className="nav-item">
+    <li
+      className={`nav-item ${isActive ? 'active' : ''}`}
+      onClick={onClick}
+    >
       {text}
     </li>
   );

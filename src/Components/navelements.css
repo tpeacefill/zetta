@@ -12,6 +12,8 @@
 .nav-elements-container {
     display: flex;
     justify-content: space-between;
+    list-style-type: none; 
+    align-items: center;
     height: 90%; /* Adjusted to 100% */
     margin-top: 0;
     margin-bottom: 0;

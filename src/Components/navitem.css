@@ -1,7 +1,7 @@
 .nav-item {
     display: flex;
     flex-direction: row;
-    background-color: #01B5DD;
+    background-color: transparent;
     width: auto; /* Changed to auto */
     padding: 0 10px; /* Added padding for spacing */
     justify-content: center;
@@ -9,5 +9,9 @@
     border-radius: 23px;
     width: 116px;
     color: white;
+    height: 98%;
+}
 
+.nav-item.active {
+    background-color: #01B5DD; /* Active state background color */
 }
