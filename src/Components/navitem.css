@@ -1,0 +1,13 @@
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    background-color: #01B5DD;
+    width: auto; /* Changed to auto */
+    padding: 0 10px; /* Added padding for spacing */
+    justify-content: center;
+    align-items: center;
+    border-radius: 23px;
+    width: 116px;
+    color: white;
+
+}

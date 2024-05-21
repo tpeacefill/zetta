@@ -1,0 +1,19 @@
+.nav-elements {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 694px;
+    background-color: #3D3C3C;
+    border: none;
+    border-radius: 23px;
+    display: flex;
+}
+
+.nav-elements-container {
+    display: flex;
+    justify-content: space-between;
+    height: 90%; /* Adjusted to 100% */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
